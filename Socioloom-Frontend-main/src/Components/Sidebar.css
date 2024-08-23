@@ -1,0 +1,26 @@
+.sidebar{
+  border-right: 1px solid var(--twitter-background) !important;
+  flex: 0.3;
+  /* min-width: 220px; */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sidebar__socioloomIcon{
+  width: 32px;
+  height: 32px;
+  margin: 24px;
+}
+
+.sidebar__logout{
+  width: 100% !important;
+  max-width: 200px !important;
+  background-color: var(--twitter-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 700 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  height: 50px !important;
+  margin-top: 20px !important;
+}

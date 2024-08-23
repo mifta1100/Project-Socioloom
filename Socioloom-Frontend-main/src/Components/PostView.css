@@ -1,0 +1,95 @@
+.postView{
+  flex: 0.4;
+  border-right: 1px solid var(--twitter-background);
+  min-width: 400px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.postView__header{
+  position: sticky;
+  display: flex;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  border-bottom: 1px solid var(--twitter-background);
+}
+
+.postView::-webkit-scrollbar{
+  display: none;
+
+}
+
+.postView{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+
+.postView__back__button{
+  padding: 15px 30px 15px 20px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.postView__header h2{
+  display: flex;
+  font-size: 24px;
+  font-weight: 800;
+  align-items: center;
+}
+
+
+
+
+.postView__post{
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--twitter-background);
+  padding-bottom: 10px;
+}
+
+.postView__post__body{
+  flex: 1;
+  padding: 10px;
+}
+
+.postView__post__body img{
+  border-radius: 20px;
+  width: 100%;
+}
+
+.postView__post__footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.postView__post__hearderDescription{
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.postView__post__headerText h3{
+  font-size: 15px;
+  margin-bottom: 5px;
+} 
+
+.postView__post__badge{
+  color: var(--twitter-color);
+  font-size: 14px !important;
+}
+
+.postView__post__headerSpecial{
+  font-weight: 600;
+  font-size: 12px;
+  color: gray
+}
+
+.postView__post__avatar{
+  padding: 12px 12px 0px 16px;
+}

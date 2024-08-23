@@ -1,0 +1,122 @@
+.chat{
+  flex: 0.4;
+  border-right: 1px solid var(--twitter-background);
+  min-width: 400px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.chat__header{
+  position: sticky;
+  display: flex;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  border-bottom: 1px solid var(--twitter-background);
+}
+
+.chat::-webkit-scrollbar{
+  display: none;
+
+}
+
+.chat{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+
+.chat__back__button{
+  padding: 15px 30px 15px 20px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.chat__header h2{
+  display: flex;
+  font-size: 24px;
+  font-weight: 800;
+  align-items: center;
+}
+
+.chat__body{
+  flex: 1;
+  background-color: antiquewhite;
+  padding: 12px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.chat__message{
+  margin-top: 10px;
+  position: relative;
+  font-size: 16px;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 42px;
+}
+
+.chat__reciever{
+  margin-left: auto;
+  background-color: #dcf8c6;
+}
+
+.chat__reciever .chat__timestamp{
+  left: auto;
+  right: 0;
+}
+
+.chat__timestamp{
+  position: absolute;
+  bottom: -20px;
+  margin-left: 10px;
+  font-size: 12px;
+  left: 0;
+}
+
+.chat__name{
+  position: absolute;
+  top: -20px;
+  font-weight: 800;
+  font-size: 12px;
+
+}
+
+.chat__footer{
+  margin: 10px;
+}
+
+.chat__input{
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: var(--twitter-background);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+} 
+
+.chat__input input{
+  border: none;
+  background-color: var(--twitter-background);
+  outline: none;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 8px;
+  width: 100%;
+}
+
+.chat__sendIcon{
+  color: gray;
+}

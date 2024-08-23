@@ -1,0 +1,159 @@
+.editProfileModalBackground {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editProfileModalContainer {
+  width: 500px;
+  height: 620px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.editProfileModalCloseIcon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+
+.editProfileModalCloseIcon:hover{
+  cursor: pointer;
+  background-color: #E7E7E8;
+  border-radius: 20px;
+}
+
+
+.editProfileModal__header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+}
+
+.editProfileModal__body{
+  display: flex;
+  flex-direction: column;
+}
+
+.editProfileModal__coverPhoto__conatiner{
+  position: relative;
+  /* background-color: beige; */
+  /* background-image: url(./cover.jpg); */
+}
+
+.editProfileModal__coverphoto{
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.editProfileModal__coverphoto__placeholder{
+  width: 100%;
+  height: 200px;
+  background-color: #E7E7E8;
+}
+
+.editProfileModal__coverphoto__choose{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #505355;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.editProfileModal__coverphoto__choose:hover{
+  background-color: #575B5E;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.editProfileModal__profilePhoto__conatiner{
+  display: flex;
+  justify-content: center;
+}
+
+.editProfileModal__profilePhoto__subconatiner{
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.editProfileModal__profilephoto{
+  border: 5px solid #fff;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.editProfileModal__profilephoto__choose{
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #505355;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.editProfileModal__profilephoto__choose:hover{
+  background-color: #575B5E;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.editProfileModal__input{
+  border: none;
+  border-bottom: 1px solid #505355;
+  padding: 4px;
+  margin: 8px 0px;
+  font-size: 20px;
+  outline: none;
+  resize: none;
+}
+
+.editProfileModal__savebtn{
+  border: none;
+  border-radius: 20px;
+  padding: 4px 12px;
+  cursor: pointer;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+}
+
+.editProfileModal__savebtn:disabled{
+  background-color: rgb(156, 147, 147);
+  color: white;
+  cursor: not-allowed;
+ 
+}
+
+.editProfileModal__savebtn:hover{
+  background-color: #575B5E;
+  transition: background-color 0.15s ease-in-out;
+}

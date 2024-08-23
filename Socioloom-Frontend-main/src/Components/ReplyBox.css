@@ -1,0 +1,51 @@
+.replyBox{
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--twitter-background);
+  padding-right: 10px;
+}
+
+.replyBox form{
+  display: flex;
+  flex-direction: column;
+}
+
+.replyBox__input{
+  padding: 16px 16px 4px 16px;
+  display: flex;
+}
+
+.replyBox__input input{
+  flex: 1;
+  margin-left: 20px;
+  border: none;
+}
+
+.replyBox__input input:focus{
+  border: none;
+  outline: none;
+}
+.replyBox__footer{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+
+.replyBox__tweetButton{
+  background-color: var(--twitter-color);
+  border: none;
+  color: white;
+  font-weight: 900;
+  border-radius: 30px;
+  height: 40px;
+  margin-left: 12px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.replyBox__tweetButton:disabled{
+  background-color: var(--twitter-background);
+  color: white;
+  cursor: not-allowed;
+ 
+}

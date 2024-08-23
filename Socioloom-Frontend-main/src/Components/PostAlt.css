@@ -1,0 +1,63 @@
+.postAlt{
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--twitter-background);
+  flex-direction: column;
+  padding: 8px 16px;
+}
+
+.postAlt__header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.postAlt__body{
+  flex: 1;
+}
+
+.postAlt__body img{
+  border-radius: 20px;
+  width: 100%;
+}
+
+.postAlt__footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.postAlt__badge{
+  color: var(--twitter-color);
+  font-size: 14px !important;
+}
+
+.postAlt__headerSpecial{
+  font-weight: 600;
+  font-size: 12px;
+  color: gray
+}
+
+.postAlt__avatar{
+  margin-right: 8px;
+}
+
+.postAlt__time{
+  color: gray;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.postAlt__displayname{
+  color: black;
+  text-decoration: none;
+}
+
+.postAlt__displayname:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.postAlt__headerText{
+  margin-right: 8px;
+}

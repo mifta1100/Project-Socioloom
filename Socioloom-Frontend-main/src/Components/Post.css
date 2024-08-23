@@ -1,0 +1,104 @@
+.post{
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--twitter-background);
+  color: black;
+  text-decoration: none;
+}
+
+.post:hover{
+  background-color: #F7F7F7; 
+  cursor: pointer;
+}
+
+.post__body{
+  flex: 1;
+  padding: 10px;
+}
+
+.post__body img{
+  border-radius: 20px;
+  width: 100%;
+}
+
+.post__footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.post__hearderDescription{
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.post__headerText{
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.post__headerInterest{
+  color: white;
+  background-color: var(--twitter-color);
+  border-radius: 4px;
+  padding: 0px 4px;
+  margin-left: auto;
+}
+
+.post__headerText h3{
+  font-size: 15px;
+  margin-bottom: 5px;
+} 
+
+.post__badge{
+  color: var(--twitter-color);
+  font-size: 14px !important;
+}
+
+.post__headerSpecial{
+  font-weight: 600;
+  font-size: 12px;
+  color: gray
+}
+
+.post__avatar{
+  padding: 12px 12px 0px 16px;
+}
+
+.post__footer__icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+
+.post__footer__like{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+}
+
+.post__footer__like:hover{
+  background-color: pink;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+.post__displayName{
+  color: black;
+  text-decoration: none;
+}
+
+.post__displayName:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.post__footer__info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2px;
+}

@@ -1,0 +1,50 @@
+.interestOption{
+  display: flex;
+  flex: 1;
+  padding: 8px;
+}
+
+.interestOption:hover{
+  background-color: #EFF1F1;
+}
+
+.interestOption__name{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 6px;
+}
+
+.interestOption__button{
+  border: none;
+  background-color: rgb(15, 20 ,25);
+  color: white;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.interestOption__button__followed{
+  border: none;
+  background-color: white;
+  border-color: rgb(207, 217, 222);
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.interestOption__button__followed:hover{
+  border-color: rgb(253,201,206);
+  background-color:rgba(244,33,46,0.1);
+  color: #F5303C;
+}
+
+.interestOption__button:hover{
+  background-color: rgb(39, 44 ,48);
+}
